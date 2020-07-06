@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:ital,wght@1,900|Oswald|Damion&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black!important;
+  overflow-x: hidden;
+  transition: 2s opacity;
+  background-color: #07070A; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body:fade {
+  opacity: 0;
+  transition: none;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 6.5rem;
+}
+
+.offset2:before {
+  display: block;
+  content: "";
+  height: 3.5rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: 1.4rem;
+  float: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+/* Nav Hover */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #09778A;
+  transition: all 300ms ease;
+}
