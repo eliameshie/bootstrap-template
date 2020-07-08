@@ -56,3 +56,13 @@ body:fade {
   color: #09778A;
   transition: all 300ms ease;
 }
+
+
+.home-inner {
+  background-image: url(../img/bg.jpg)!important;
+}
+
+.pistol-section {
+  color: white;
+  position: relative; 
+}
